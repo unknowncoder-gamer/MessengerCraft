@@ -1,3 +1,6 @@
+import NavBar from "@/components/my ui/home/Nav";
+import Footer from "@/components/my ui/home/Footer";
+
 interface Props {
   children: React.ReactNode;
 }
@@ -5,9 +8,9 @@ interface Props {
 const HomeLAyout = ({ children }: Props) => {
   return (
     <div>
-      {/* Nav */}
+      <NavBar />
       {children}
-      {/* Footer */}
+      <Footer />
     </div>
   );
 };
