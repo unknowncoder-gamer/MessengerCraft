@@ -1,0 +1,19 @@
+body:
+  - type: textarea
+    attributes:
+      label: Summary
+      description: What do you need help with?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Any issue related to the application in any way. But you don't know if it's a bug or a client side error happened to you only.
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Example
+      description: A link to a minimal reproduction is helpful for collaborative debugging!
+    validations:
+      required: false
